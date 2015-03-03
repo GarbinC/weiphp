@@ -1,0 +1,12 @@
+[ 2015-03-03T11:30:43+08:00 ] 111.161.77.196 /index.php?s=/addon/Vote/Vote/join.html
+ERR: 1054:Unknown column 'next_id' in 'field list'
+ [ SQL语句 ] : SELECT `next_id` FROM `wp_vote` WHERE ( id=33 ) LIMIT 1  
+
+[ 2015-03-03T11:33:14+08:00 ] 111.161.77.196 /index.php?s=/addon/GarbinTest/GarbinTest/lists.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `name` FROM `wp_attribute` WHERE ( model_id= ) 
+ERR: 1146:Table 'weiphp.wp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wp_` WHERE ( `token` = 'gh_4ea3968973fe' ) ORDER BY id desc LIMIT 0,20  
+ERR: 1146:Table 'weiphp.wp_' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `wp_` WHERE ( `token` = 'gh_4ea3968973fe' ) LIMIT 1  
+

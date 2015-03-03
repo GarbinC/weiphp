@@ -16,13 +16,15 @@ class VoteController extends AddonsController {
 		
 		$this->option = M ( 'Model' )->getByName ( 'vote_option' );
 		$this->assign ( 'option', $this->option );
+		
+		//var_dump( $this->model);exit()
 	}
 	/**
 	 * 显示指定模型列表数据
 	 */
 	public function lists() {
 		$page = I ( 'p', 1, 'intval' ); // 默认显示第一页数据
-		                                
+		                            
 		// 解析列表规则
 		$list_data = $this->_list_grid ( $this->model );
 		$grids = $list_data ['list_grids'];
